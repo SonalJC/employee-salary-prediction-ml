@@ -21,7 +21,7 @@ using employee-related features such as age, education, occupation, work class, 
 
 ## 📊 Dataset
 
-**Dataset:** Adult Income Dataset
+**Dataset:** Adult Census Income Dataset -[https://www.kaggle.com/datasets/uciml/adult-census-income]
 
 **Target Variable**
 
@@ -36,7 +36,6 @@ using employee-related features such as age, education, occupation, work class, 
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
 - Scikit-learn
 - Streamlit
 - Pickle
@@ -143,11 +142,11 @@ The trained model was deployed using Streamlit, allowing users to predict employ
 
 ### Confusion Matrix
 
-(Add Screenshot Here)
+<img width="463" height="155" alt="image" src="https://github.com/user-attachments/assets/3b6baa53-b160-4ce1-9eff-576d46b3a9d0" />
 
 ### Feature Importance
 
-(Add Screenshot Here)
+<img width="542" height="587" alt="image" src="https://github.com/user-attachments/assets/f007ad41-e27e-451d-9a4d-4f1515edaeed" />
 
 ---
 
