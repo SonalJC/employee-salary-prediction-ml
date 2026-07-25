@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # load the model file.
-with open('model (2).pkl','rb') as file:
+with open('model.pkl','rb') as file:
     model=pickle.load(file)
 
 
