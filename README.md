@@ -125,6 +125,7 @@ The model was evaluated using:
 - Recall
 - F1-Score
 - Confusion Matrix
+- Classification Report
 
 ---
 
@@ -138,7 +139,7 @@ The trained model was deployed using Streamlit, allowing users to predict employ
 
 ### Streamlit Interface
 
-(Add Screenshot Here)
+<img width="858" height="827" alt="image" src="https://github.com/user-attachments/assets/4172c924-2e95-4dc8-b64c-2e5135876d91" />
 
 ### Confusion Matrix
 
@@ -152,10 +153,11 @@ The trained model was deployed using Streamlit, allowing users to predict employ
 
 ## 🚀 Future Improvements
 
-- Deploy the application on Streamlit Community Cloud
-- Add prediction probability (confidence score)
-- Improve model explainability using SHAP
-- Experiment with boosting algorithms such as XGBoost and LightGBM
+- Handle class imbalance using SMOTE
+- Try XGBoost / LightGBM for better performance on imbalanced data
+- Try GridSearchCV with narrower param range after RandomizedSearch
+- Add batch prediction (CSV upload) in Streamlit app
+- Add ROC-AUC curve for better model comparison
 
 ---
 
